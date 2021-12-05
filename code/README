@@ -1,0 +1,15 @@
+NOTE: 
+=====
+
+The files for the branched and the predicated implementations are: 
+
+ADM-2021-A4-sort-branched-inplace
+ADM-2021-A4-sort-predicated-inplace
+
+To replicate the experiments described in the report, run the 'make' command first and then execute the programs using
+
+./ADM-2021-A4-sort-branched-inplace 1001214 l_orderkey-int32.csv
+./ADM-2021-A4-sort-branched-inplace 1001214 l_orderkey-int32.csv
+
+
+
