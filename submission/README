@@ -1,0 +1,26 @@
+NOTE: 
+=====
+
+The files for the branched and the predicated implementations are - 
+ADM-2021-A4-sort-branched-inplace.c
+ADM-2021-A4-sort-predicated-inplace.c
+
+To replicate the experiments described in the report, in the 'code' directory, compile the file using -
+>gcc <filename>.c 
+
+Run the resulting output file (ex: a.out) using -
+>./a.out 1001214 l_orderkey-int32.csv
+
+Note that the number and the file provided is to replicate the experiment recorded in the report
+
+***
+
+Alternatively in case the above doesn't work, the same files are also provided in the 'extras' directory, where the 'make' command can be run, followed by 
+./ADM-2021-A4-sort-branched-inplace 1001214 l_orderkey-int32.csv
+./ADM-2021-A4-sort-predicated-inplace 1001214 l_orderkey-int32.csv
+
+
+
+
+
+
